@@ -1,4 +1,4 @@
-import './styles/Projects.css';
+import './styles/projects.css';
 import Entry from './components/entry';
 
 function Projects() {

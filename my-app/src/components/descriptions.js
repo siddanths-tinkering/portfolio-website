@@ -1,0 +1,2 @@
+var ase = ["Developed a web app using Next.js integrating various in-house and open-source tools, along with YARA/Sigma rules to streamline the detection of comprised systems to improve the effectiveness of Incident Response (IR) teams", 
+           "Documented existing and later-built architecture to facilitate codebase handover to other teams"]

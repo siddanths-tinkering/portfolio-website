@@ -1,73 +1,15 @@
-.nav-container {
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.company {
+	color: #61dafb;
+}
+  
+.container {
+	display: block;
+	text-align: left;
 }
 
-.navbar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: fixed;
-	top: 3vh;
-	z-index: 999;
-}
-
-.nav-background {
-	width: 600px;
-	height: 60px;
-	padding-left: 0%;
-	padding-right: 0%;
-	background: #1f2228;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 40px;
-}
-
-.nav-list {
-	display: flex;
-	justify-content: space-evenly;
-	list-style: none;
-	align-items: center;
-	margin-left: -16px;
-	margin-right: 20px;
-	margin-top: 12px;
-}
-
-.nav-item {
-	font-weight: bold;
-	font-size: 145%;
-	color: white;
-}
-
-.nav-item.active a {
-	color: #90e0ef;
-}
-
-.nav-item a {
-	text-decoration: none;
-	color: var(--primary-color);
-}
-
-.nav-item a:hover {
-	color: #90e0ef;
-	transition: color 0.3s ease-in-out;
-}
-
-@media (max-width: 600px) {
-	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
-	}
-
-	.nav-background {
-		width: 80%;
-		height: 40px;
-	}
-
-	.nav-item {
-		font-weight: bold;
-	}
+#text {
+	font-size: 20px;
+	width: 800px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
