@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../styles/navBar.css";
 
-const NavBar = (props) => {
-	const { active } = props;
-
+const NavBar = ({active}) => {
 	return (
 		<React.Fragment>
 			<div className="nav-container">
@@ -14,7 +12,7 @@ const NavBar = (props) => {
 						<ul className="nav-list">
 							<li
 								className={
-									active === "projects"
+									active === ""
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -23,7 +21,7 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "projects"
+									active === "experience"
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -41,21 +39,12 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "articles"
+									active === "interests"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-							<Link to="/articles">Articles</Link>
-							</li>
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-							<Link to="/contact">Contact</Link>
+							<Link to="/interests">Interests</Link>
 							</li>
 						</ul>
 					</div>

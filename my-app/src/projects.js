@@ -1,29 +1,22 @@
 import './styles/projects.css';
 import Role from './components/role';
 
-const ase = ["● Developed a web app using Next.js integrating various in-house and open-source tools, along with YARA/Sigma rules" + 
-             "to streamline the detection of comprised systems to improve the effectiveness of Incident Response (IR) teams",
-	         "● Documented existing and later-built architecture to facilitate codebase handover to other teams"]
-
-const cti = ["● Built a real-time ELK pipeline for logs analysis from over 15 open-source worldwide honeypots that captured DDoS attacks occurring in the US and the resurgence of a well-known threat actor",
-	         "● Deployed on-prem MySQL servers to store up to 6 months of logs for visualization on Kibana and Tableau for use in landscape and other cybersecurity reports",
-		     "● Collaborated with other interns to program a Python scraping bot that filters articles based on specified tags to automate the distribution of relevant news to stakeholders"]
-
-
-const ta = ["● Taught undergraduate students Java principles and related libraries",
-			"● Instilled intermediate programming skills (functional programming, generics, and semi-large programs)",
-			"● Initiated consultation sessions with students to provide additional guidance"]
+const sonvisage = ["● Lead a team of 6 engineers to build a ELK data pipeline to collect and store patient and environmental data, to facilitate better medical access in rural Nigeria",
+			       "● Architected an encryption program using OpenSSL and C to safeguard confidential patient data collected on the vehicle for later transmission"]
+const njordfrey = ["● Designed a data collection system currently deployed in 2 Rwandan farms to help identify areas of low crop yields"]
+const phs = ["●	Programmed backend of the web application that was utilized by over 1000 patients at the annual community screenings from August 21st - 22nd held by the NUS Yong Loo Lin School of Medicine",
+		     "●	Implemented functionality for the patient data to be exported in various formats, including but not limited to PDFs that removed the need for doctors to manually track patient data in Excel files"]
 
 function Projects() {
 	return (
 		<div className='body'>
-			<br/>
 			<br></br>
 			<br></br>
 			<br></br>
-			<Role company="Ensign InfoSecurity" role="Associate Security Engineer" description={ase}></Role><br/>
-			<Role company="Ensign InfoSecurity" role="Cyber Threat Intelligence Consulting Intern" description={cti}></Role><br/>
-			<Role company="Nat. University of Singapore" role="TA, CS2030S Programming Methodology II" description={ta}></Role>
+			<br></br>
+			<Role company="Sonvisage, Bridges for Enterprise" role="Director, Technical Advisory" description={sonvisage} dates="Ongoing" country="Nigeria"></Role><br/>
+			<Role company="NjordFrey, Bridges for Enterprise" role="Team Lead" description={njordfrey} dates="Jan 22 - Oct 22" country="Rwanda"></Role><br/>
+			<Role company="Yong Loo Lin School of Medicine" role="Backend Developer" description={phs} dates="Oct 21 - Aug 22" country="Singapore"></Role><br/>
 		</div>
 	)
 }
