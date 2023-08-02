@@ -2,7 +2,7 @@ import './styles/experience.css';
 import Role from './components/role';
 
 const ase = ["● Developed a web app using Next.js integrating various in-house and open-source tools, along with YARA/Sigma rules" + 
-             "to streamline the detection of comprised systems to improve the effectiveness of Incident Response (IR) teams",
+             " to streamline the detection of comprised systems to improve the effectiveness of Incident Response (IR) teams",
 	         "● Documented existing and later-built architecture to facilitate codebase handover to other teams"]
 
 const cti = ["● Built a real-time ELK pipeline for logs analysis from over 15 open-source worldwide honeypots that captured DDoS attacks occurring in the US and the resurgence of a well-known threat actor",
@@ -16,7 +16,7 @@ const ta = ["● Taught undergraduate students Java principles and related libra
 
 function Experience() {
 	return (
-		<div className='body'>
+		<div id='experience'>
 			<br/>
 			<br></br>
 			<br></br>

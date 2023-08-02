@@ -41,8 +41,7 @@
 }
 
 .nav-item.active a {
-	color: #90e0ef;
-	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Define the glow effect */
+	color: #61dafb;
 }
 
 .nav-item a {
@@ -51,8 +50,8 @@
 }
 
 .nav-item a:hover {
-	color: #90e0ef;
-	text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Define the glow effect */
+	color: #61dafb;
+	text-shadow: 0 0 10px #61dafb; /* Define the glow effect */
 	transition: color 0.3s ease-in-out;
 }
 

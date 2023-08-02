@@ -10,8 +10,10 @@ function Home() {
 			<div id="container">
 				<img className='image' src={headshot} />
 				<div className='container1'>
-					<b className='name'> I'm Siddanth.</b>
-					<p className='description'> I'm interested in building things, as well as keeping said things safe from the bad guys.</p>
+					<div className='containera'>
+						<b className='name'> I'm Siddanth.</b>
+						<b className='description'> I'm interested to <b className='underline'>build</b> things, as well as keeping said things <b className='underline'>safe</b> from the bad guys.</b>
+					</div>
 					<div className='container2'>
 						<a href="mailto:siddanthrumralkar@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
     	  				<a href="https://github.com/wowsiddanth?tab=repositories" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>

@@ -14,6 +14,7 @@
 	box-shadow: 0 0 15px 5px #61dafb; /* Adjust the color and size of the glow as needed */
 	outline: 4px solid #61dafb;
 	border-radius: 10px;
+	transition: 0.1s ease-in-out;
 }
 
 .container-2 {

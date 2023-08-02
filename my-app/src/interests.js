@@ -1,4 +1,4 @@
-import './styles/experience.css';
+import './styles/interests.css';
 import Role from './components/role';
 
 function Interests() {
@@ -8,6 +8,7 @@ function Interests() {
 			<br></br>
 			<br></br>
 			<br></br>
+			<b>Languages</b>
 		</div>
 	)
 }
