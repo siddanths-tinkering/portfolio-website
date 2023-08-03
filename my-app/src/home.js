@@ -3,7 +3,7 @@ import headshot from './images/headshot.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 
 

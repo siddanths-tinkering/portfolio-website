@@ -1,11 +1,6 @@
 import React from 'react';
 import '../styles/role.css';
 
-function processDescripton(text) {
-	// proses = text.split("<br>")
-	return
-}
-
 function Role({company, role, description, dates, country="Singapore"}) {
 	return (
 		<div>
