@@ -16,8 +16,9 @@ const ta = ["● Taught undergraduate students Java principles and related libra
 
 function Experience() {
 	return (
-		<div id='experience'>
+		<div className='experience'>
 			<br/>
+			<br></br>
 			<br></br>
 			<br></br>
 			<br></br>

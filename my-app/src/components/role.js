@@ -11,7 +11,7 @@ function Role({company, role, description, dates, country="Singapore"}) {
 						<b className="company">{company}</b>
 					</div>
 					<div className='container-4'>
-						<text className="dates">{dates}</text><br/>
+						<b className="dates">{dates}</b><br/>
 						<b className="company">{country}</b><br/>
 					</div>
 				</div>

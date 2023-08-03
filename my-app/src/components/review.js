@@ -10,8 +10,10 @@ function Review({title, sentence, rating, video}) {
 						<b className="title">{title}</b>
 						<p className="sentence">{sentence}</p>
 					</div>
-					<b className="rating">{rating}</b>
-					<img src={video} id="GIF"></img>
+					<b className="rating">{}</b>
+					<div className="image">
+						<img src={video} id="GIF"></img>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -7,17 +7,20 @@ import rdr2video from './gifs/rdr2.gif'
 import cyberpunkvideo from './gifs/cyberpunk.gif'
 import niervideo from './gifs/nier.gif'
 
-const nier = "A somber tale that strings us along the wastelands of Earth. What it loses in gameplay, it makes up for with an incredible soundtrack. If you have never had the pleasure of frisson, you will soon."
-const cyberpunk = "Though plagued by early scandals and glitches, Cyberpunk: 2077 ultimately delivers a high-octane narrative that serves as a cautionery tale about the caveats of radical economic policies.";
-const rdr2 = "A masterpiece that combines skillful world making with powerful story telling. To those men who claim to never cry, this opus might just be the thing to break that streak of theirs."
-const dbh = "What makes an incredibly advanced AI that shows joy, anger, and sorrow not human? With the way things are moving, now's maybe a good time to sympathize with our pseudoselves."
-const tlou = "If pandemics and zombies are your thing, then TLoU series is for you. As you venture across settlements and post-apocalyptic cities, you can't help but wonder if humans were the true monsters after all."
-const plaguetale = "Follow the DeRune siblings as they fight hoardes of flesh hungry, evil rats to find a cure to Hugo's curse in this unique rendition of The Black Death. Do not play this if you have a pet rat.";
+const nier = "If you have never cried or gotten goosebumps from music, I don’t blame you—music nowadays just isn’t that great. But, play this and I guarantee you with this game’s soundtrack that you’ll finally feel the sweet release of frisson."
+const cyberpunk = "A cautionary tale that makes you ponder about how bad ultra capitalism will truly be for us. Safe to say I hate it now. Wait-didn’t I just pay 100 dollars for this game and its merchandise?!";
+const rdr2 = "I’m serious when I say I grew a couple of chesthairs and the stride of an outlaw after a couple of hours hammering at this game. Oh, and as quickly as it does that, it then immediately turns you into a sobbing mess. 100/10."
+const dbh = "What makes an incredibly advanced AI that shows joy, anger, and sorrow not human? With the way things are moving, now's maybe a good time to sympathize with our pseudoselves (I’m looking at you, Roko's Basilisk)."
+const tlou = "If pandemics and zombies are your thing, then TLoU series is for you. As you venture across settlements and post-apocalyptic cities, you can't help but wonder if we were the true monsters after all."
+const plaguetale = "Follow the DeRune siblings as they fight hordes of flesh hungry, evil rats to find a cure to Hugo's curse in this unique rendition of The Black Death. Word of caution: do not play this if you have a pet rat.";
 
 function Reccos() {
 	return (
 		<div className='body'>
 			<br/>
+			<br></br>
+			<br></br>
+			<br></br>
 			<br></br>
 			<br></br>
 			<br></br>

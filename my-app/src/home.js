@@ -25,7 +25,7 @@ function Home() {
 				<div className='container1'>
 					<img className="headshot" src={headshot}></img>
 					<div className='container2'>
-						<b className="name"> I'm Siddanth and this who I am. </b>
+						<b className="name"> I'm Siddanth and this is who I am. </b>
 						<b className="welcome">{welcomeText}</b>
 					</div>
 					<div className='container3'>

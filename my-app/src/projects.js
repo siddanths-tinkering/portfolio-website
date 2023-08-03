@@ -17,6 +17,7 @@ function Projects() {
 			<br></br>
 			<br></br>
 			<br></br>
+			<br></br>
 			<Role company="Sonvisage, Bridges for Enterprise" role="Director, Technical Advisory" description={sonvisage} dates="Ongoing" country="Nigeria"></Role><br/>
 			<Role company="NjordFrey, Bridges for Enterprise" role="Team Lead" description={njordfrey} dates="Jan 22 - Oct 22" country="Rwanda"></Role><br/>
 			<Role company="Yong Loo Lin School of Medicine" role="Backend Developer" description={phs} dates="Oct 21 - Aug 22" country="Singapore"></Role><br/>
