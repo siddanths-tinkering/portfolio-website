@@ -1,0 +1,40 @@
+.review-container-1 {
+	display: flex;
+}
+
+.review-container-2 {
+	flex: column;
+	width: 35vw;
+	padding-right: 0.4%;
+	margin-top: 0.6%;
+}
+
+.review-container-3 {
+	flex: column;
+	width: 35vw;
+  	height: 20px;
+}
+
+img {
+	font: optional;
+	border-radius: 6%;
+	height: 10vw;
+	width: 16vw;
+	margin-top: 1.6%;
+}
+
+.title {
+	font-size: 1.8vw;
+}
+
+.sentence {
+	color: #61dafb;
+	font-size: 1.3vw;
+	text-overflow: auto;
+}
+
+.rating {
+	font-size: 4.3vw;
+	margin-top: 4.5%;
+	padding-right: 2.8%;
+}

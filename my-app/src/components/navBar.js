@@ -20,6 +20,15 @@ const NavBar = ({active}) => {
 							</li>
 							<li
 								className={
+									active === "education"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+							<Link to="/education">Education</Link>
+							</li>
+							<li
+								className={
 									active === "experience"
 										? "nav-item active"
 										: "nav-item"
@@ -43,7 +52,7 @@ const NavBar = ({active}) => {
 										: "nav-item"
 								}
 							>
-							<Link to="/interests">Interests</Link>
+							<Link to="/reccos">Game Reccos</Link>
 							</li>
 						</ul>
 					</div>
