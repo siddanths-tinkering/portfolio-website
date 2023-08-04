@@ -56,6 +56,13 @@ b.company {
 		color: white;
 	}
 
+	.container:hover {
+		box-shadow: 0 0 10px 5px #61fbcf; /* Adjust the color and size of the glow as needed */
+		outline: 0px solid #61fbcf;
+		border-radius: 20px;
+		transition: 0.1s ease-in-out;
+	}
+
 	.container-2 {
 		display: flex;
 		justify-content: space-between;
