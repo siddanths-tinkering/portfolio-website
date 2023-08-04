@@ -4,12 +4,12 @@
   
 .container {
   display: block;
-  padding: 1%;
+  padding: 2%;
   width: 90%; 
   margin: 0 auto; 
   margin-bottom: 1%; 
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
   transition: 2s ease-in-out;
 
 }
@@ -17,7 +17,7 @@
 .container:hover {
 	box-shadow: 0 0 10px 5px #61fbcf; /* Adjust the color and size of the glow as needed */
 	outline: 4px solid #61fbcf;
-	border-radius: 0.4%;
+	border-radius: 20px;
 	transition: 0.1s ease-in-out;
 }
 
@@ -31,7 +31,6 @@
 }
 
 .container-4 {
-	display: block;
 	text-align: right;
 }
 
@@ -46,6 +45,10 @@ b.company {
 .text {
 	font-size: 25px;
 	width: 100%;
+}
+
+.icon {
+	font-size: 25px;
 }
 
 @media (max-width: 1000px) {
@@ -75,6 +78,9 @@ b.company {
 		color: #61dafb;
 	}
 
+	.icon {
+		font-size: 14px;
+	}
 	.text {
 		font-size: 14px;
 	}

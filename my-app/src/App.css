@@ -1,5 +1,12 @@
+body {
+	overscroll-behavior-y: contain;
+	background-color: #282c34;
+}
+
 .App-header {
   background-color: #282c34;
+  height: 100%;
+  width: 100%;
   min-height: 100vh;
   align-items: center;
   font-size: 30px;
@@ -75,10 +82,11 @@
 
 a {
 	color: white;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #61dafb; 
+	text-decoration: none;
 }
 
 @keyframes fadeOut {
