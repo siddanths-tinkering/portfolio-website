@@ -1,19 +1,23 @@
 .dates {
 	color: white;
-	font-size: 1.3vw;
-	margin-left: auto;
 }
   
 .container {
-	display: block;
-	text-align: left;
-	padding: 15px;
+  display: block;
+  padding: 2%;
+  width: 90%; 
+  margin: 0 auto; 
+  margin-bottom: 1%; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  transition: 2s ease-in-out;
+
 }
 
 .container:hover {
-	box-shadow: 0 0 15px 5px #61dafb; /* Adjust the color and size of the glow as needed */
-	outline: 4px solid #61dafb;
-	border-radius: 10px;
+	box-shadow: 0 0 10px 5px #61fbcf; /* Adjust the color and size of the glow as needed */
+	outline: 4px solid #61fbcf;
+	border-radius: 20px;
 	transition: 0.1s ease-in-out;
 }
 
@@ -27,12 +31,11 @@
 }
 
 .container-4 {
-	display: block;
 	text-align: right;
 }
 
 b {
-	font-size: 1.5vw;
+	font-size: 28px;
 }
 
 b.company {
@@ -40,8 +43,45 @@ b.company {
 }
 
 .text {
-	font-size: 1.3vw;
-	width: 40vw;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	font-size: 25px;
+	width: 100%;
+}
+
+.icon {
+	font-size: 25px;
+}
+
+@media (max-width: 1000px) {
+	.dates {
+		color: white;
+	}
+
+	.container-2 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.container-3 {
+		flex: column;
+	}
+
+	.container-4 {
+		display: block;
+		text-align: right;
+	}
+
+	b {
+		font-size: 14px;
+	}
+
+	b.company {
+		color: #61dafb;
+	}
+
+	.icon {
+		font-size: 14px;
+	}
+	.text {
+		font-size: 14px;
+	}
 }

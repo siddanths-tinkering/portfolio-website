@@ -1,8 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/navBar.css";
+import { animateScroll as scroll } from 'react-scroll';
 
 const NavBar = ({active}) => {
+	const scrollToTop = () => {
+		scroll.scrollToTop();
+  	};
+
 	return (
 		<React.Fragment>
 			<div className="nav-container">
@@ -16,7 +21,7 @@ const NavBar = ({active}) => {
 										: "nav-item"
 								}
 							>
-							<Link to="/">Home</Link>
+							<Link to="/" onClick={scrollToTop}>Home</Link>
 							</li>
 							<li
 								className={
