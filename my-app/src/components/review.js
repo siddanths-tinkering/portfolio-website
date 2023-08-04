@@ -18,7 +18,7 @@ function Review({title, sentence, link, video}) {
 						<img src={video} id="GIF"></img>
 					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	)
 }

@@ -17,6 +17,11 @@ function Role({company, role, description, dates, link="", country="Singapore"})
 						<b className="dates">{dates}</b><br/>
 						<b className="company">{country}</b><br/>
 					</div>
+					<React.Fragment>
+						<ul>
+							{description.map((text) => (<li className="text">{text}</li>))}
+						</ul>
+					</React.Fragment>
 				</div>
 				<React.Fragment>
 					<ul>
