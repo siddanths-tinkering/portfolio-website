@@ -25,7 +25,7 @@
 
 .nav-list {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	list-style: none;
 	align-items: center;
 	margin-top: 2%;
@@ -35,6 +35,11 @@
 	font-weight: bold;
 	font-size: 22px;
 	color: white;
+}
+
+/* Add margin between navigation items for horizontal spacing */
+.nav-item:not(:last-child) {
+  margin-right: 20px; /* Adjust as needed */
 }
 
 .nav-item.active a {
@@ -60,6 +65,52 @@
 	}
 
 	.nav-item {
-		font-size: 13px;
+		font-size: 2.4vw;
+		font-size: 11px;
+		margin-right: 65px;
+	}
+
+	.nav-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navbar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 1.5vw;
+		z-index: 999;
+	}
+
+	.nav-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		list-style: none;
+		width: 100%;
+	}
+
+	/* Add margin between navigation items for horizontal spacing */
+	.nav-item:not(:last-child) {
+	margin-right: 20px; /* Adjust as needed */
+	}
+
+	.nav-item.active a {
+		color: #61dafb;
+	}
+
+	.nav-item a {
+		text-decoration: none;
+		color: var(--primary-color);
+	}
+
+	.nav-item a:hover {
+		color: #61dafb;
+		text-shadow: 0 0 10px #61dafb; /* Define the glow effect */
+		transition: color 0.3s ease-in-out;
 	}
 }

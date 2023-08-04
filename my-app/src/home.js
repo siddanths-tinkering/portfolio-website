@@ -21,19 +21,19 @@ function Home() {
 
 	return (
 		<header className="App-header">
-			<div id="container">
-				<div className='container1'>
+			<div className="app-container">
+				<div className='app-container1'>
 					<img className="headshot" src={headshot}></img>
-					<div className='container2'>
+					<div className='app-container2'>
 						<b className="name"> I'm Siddanth and this is who I am. </b>
 						<b className="welcome">{welcomeText}</b>
 					</div>
-					<div className='container3'>
-						<a href="https://drive.google.com/file/d/1vX056xS8FLzznp7K-__jHS51GNBlWYA3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
-						<a href="mailto:siddanthrumralkar@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
-    	  				<a href="https://github.com/wowsiddanth?tab=repositories" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-    	  				<a href="https://medium.com/@siddanthumralkar" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} /></a>
-    	  				<a href="https://www.linkedin.com/in/siddanth-umralkar/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+					<div className='app-container3'>
+						<a className="links" href="https://drive.google.com/file/d/1vX056xS8FLzznp7K-__jHS51GNBlWYA3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
+						<a className="links" href="mailto:siddanthrumralkar@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+    	  				<a className="links" href="https://github.com/wowsiddanth?tab=repositories" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+    	  				<a className="links" href="https://medium.com/@siddanthumralkar" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} /></a>
+    	  				<a className="links" href="https://www.linkedin.com/in/siddanth-umralkar/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
 					</div>
 				</div>
 			</div>
