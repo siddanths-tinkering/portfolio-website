@@ -14,10 +14,10 @@
 }
 
 .nav-background {
-	width: 40vw;
-	height: 3.1vw;
-	padding-left: 0%;
-	padding-right: 3%;
+	width: 700px;
+	height: 58px;
+	align-items: center;
+	padding-right: 4%;
 	background: #1f2228;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 40px;
@@ -28,12 +28,12 @@
 	justify-content: space-evenly;
 	list-style: none;
 	align-items: center;
-	margin-top: 0.6vw;
+	margin-top: 2%;
 }
 
 .nav-item {
 	font-weight: bold;
-	font-size: 1.2vw;
+	font-size: 22px;
 	color: white;
 }
 
@@ -53,20 +53,13 @@
 }
 
 @media (max-width: 1000px) {
-	.navbar {
-		display: none;
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
-	}
-
 	.nav-background {
-		width: 80%;
+		width: 95vw;
 		height: 40px;
+	
 	}
 
 	.nav-item {
-		font-weight: bold;
+		font-size: 13px;
 	}
 }
