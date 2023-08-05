@@ -2,6 +2,7 @@ import './styles/reccos.css';
 
 import Review from './components/review';
 
+
 import plaguetalevideo from './gifs/plaguetale.gif'
 import tlouvideo from './gifs/tlou.gif'
 import dbhvideo from './gifs/dbh.gif'
@@ -10,6 +11,8 @@ import cyberpunkvideo from './gifs/cyberpunk.gif'
 import niervideo from './gifs/nier.gif'
 import alienisolationvideo from './gifs/alienisolation.gif'
 import gtavideo from './gifs/gta.gif'
+import TaskBar from './components/topbar';
+import TopBar from './components/topbar';
 
 
 const gta = "Guns, cars, violence, and explosions; this truly is a Steven Spielberg movie on steroids. If you have ever wanted to feel like a domestic terrorist (for some reason), then this bastion of anarchy will definitely satisfy that lust."
@@ -29,6 +32,7 @@ function Reccos() {
 			<br></br>
 			<br></br>
 			<br></br>
+			<TopBar></TopBar>
 			<br></br>
 			<Review title="Grand Theft Auto V" sentence={gta} link="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" video={gtavideo} rating="9.5"></Review><br/>
 			<Review title="Alien: Isolation" sentence={alienisolation} link="https://store.steampowered.com/app/214490/Alien_Isolation/" video={alienisolationvideo} rating="9.5"></Review><br/>
