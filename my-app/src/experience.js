@@ -2,7 +2,7 @@ import './styles/experience.css';
 import Role from './components/role';
 
 const ase = ["Developed a web app using Next.js integrating various in-house and open-source tools, along with YARA/Sigma rules" + 
-             " to streamline the detection of comprised systems to improve the effectiveness of Incident Response (IR) teams",
+             " to streamline the detection of compromised systems to improve the effectiveness of Incident Response (IR) teams",
 	         "Documented existing and later-built architecture to facilitate codebase handover to other teams"]
 
 const cti = ["Built a real-time ELK pipeline for logs analysis from over 15 open-source worldwide honeypots that captured DDoS attacks occurring in the US and the resurgence of a well-known threat actor",
@@ -10,9 +10,9 @@ const cti = ["Built a real-time ELK pipeline for logs analysis from over 15 open
 		     "Collaborated with other interns to program a Python scraping bot that filters articles based on specified tags to automate the distribution of relevant news to stakeholders"]
 
 
-const ta = ["Taught undergraduate students Java principles and related libraries",
+const ta = ["Taught 11 undergraduate students Java principles and related libraries",
 			"Instilled intermediate programming skills (functional programming, generics, and semi-large programs)",
-			"Initiated consultation sessions with students to provide additional guidance"]
+			"Initiated weekly consultation sessions with students to provide additional guidance about lab assignments"]
 
 function Experience() {
 	return (
