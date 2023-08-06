@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './styles/projects.css';
 import Role from './components/role';
 
@@ -17,6 +18,10 @@ const petal = ["Programmed a lightweight, CLI-based task-management software tha
 function Projects() {
 	return (
 		<div className='body'>
+			<Helmet>
+				<meta charSet="utf-8" />
+      			<title>Projects</title>
+			</Helmet>
 			<br></br>
 			<br></br>
 			<br></br>

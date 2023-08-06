@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Home from './home';
 import NavBar from './components/navBar';
 import Education from './education';

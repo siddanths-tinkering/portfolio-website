@@ -1,7 +1,6 @@
+import { Helmet } from 'react-helmet';
 import './styles/reccos.css';
-
 import Review from './components/review';
-
 import plaguetalevideo from './gifs/plaguetale.gif'
 import tlouvideo from './gifs/tlou.gif'
 import dbhvideo from './gifs/dbh.gif'
@@ -24,6 +23,10 @@ const plaguetale = "Follow the de Rune siblings as they fight hordes of flesh hu
 function Reccos() {
 	return (
 		<div className='body'>
+			<Helmet>
+				<meta charSet="utf-8" />
+      			<title>Reccos</title>
+			</Helmet>
 			<br/>
 			<br></br>
 			<br></br>

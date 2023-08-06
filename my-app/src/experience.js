@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './styles/experience.css';
 import Role from './components/role';
 
@@ -17,6 +18,10 @@ const ta = ["Taught 11 undergraduate students Java principles and related librar
 function Experience() {
 	return (
 		<div className='experience'>
+			<Helmet>
+				<meta charSet="utf-8" />
+      			<title>Experience</title>
+			</Helmet>
 			<br/>
 			<br></br>
 			<br></br>

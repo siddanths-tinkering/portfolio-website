@@ -1,9 +1,10 @@
 import './App.css';
+import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import headshot from './images/headshot.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { useState } from 'react';
 
 
 
@@ -21,6 +22,10 @@ function Home() {
 
 	return (
 		<header className="App-header">
+			<Helmet>
+				<meta charSet="utf-8" />
+      			<title>Home</title>
+			</Helmet>
 			<div className="app-container">
 				<div className='app-container1'>
 					<img className="headshot" src={headshot}></img>
@@ -29,7 +34,7 @@ function Home() {
 						<b className="welcome">{welcomeText}</b>
 					</div>
 					<div className='app-container3'>
-						<a className="links" href="https://drive.google.com/file/d/1OVSrZFNcQDtQyHifytyDW94Uyjtm4tpF/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
+						<a className="links" href="https://drive.google.com/file/d/1GmDu8efHFUrOx9YvA4-Oqe4sA4FdkZUl/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
 						<a className="links" href="mailto:siddanthrumralkar@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
     	  				<a className="links" href="https://github.com/wowsiddanth?tab=repositories" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     	  				<a className="links" href="https://medium.com/@siddanthumralkar" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} /></a>

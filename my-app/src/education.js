@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './styles/experience.css';
 import Role from './components/role';
 
@@ -9,6 +10,10 @@ const techskills = ["Languages: Python, Java, C++, C, JavaScript, SQL (PostgreSQ
 function Education() {
 	return (
 		<div className='experience'>
+			<Helmet>
+				<meta charSet="utf-8" />
+      			<title>Education</title>
+			</Helmet>
 			<br></br>
 			<br></br>
 			<br></br>
