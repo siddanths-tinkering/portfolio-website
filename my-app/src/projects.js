@@ -19,7 +19,7 @@ function Projects() {
 			<br></br>
 			<br></br>
 			<br></br>
-			<Role company="Sonvisage, Bridges for Enterprise" role="Director, Technical Advisory" description={sonvisage} dates="Ongoing" country="Nigeria" link="https://www.sonvisage.com/"></Role><br/>
+			<Role company="Sonvisage, Bridges for Enterprise" role="Director, Technical Advisory" description={sonvisage} dates="Ongoing" country="Nigeria (remote)" link="https://www.sonvisage.com/"></Role><br/>
 			<Role company="NjordFrey, Bridges for Enterprise" role="Team Lead" description={njordfrey} dates="Jan 22 - Oct 22" country="Rwanda" link="https://www.njordfrey.com/about"></Role><br/>
 			<Role company="Yong Loo Lin School of Medicine" role="Backend Developer" description={phs} dates="Oct 21 - Aug 22" country="Singapore"></Role><br/>
 			<Role company="Team GorillaBear, NUS Orbital" role="Team Lead" description={odyssey} dates="May 21 - Aug 21" country="Singapore" link="https://youtu.be/MSHFh263E7I"></Role><br/>

@@ -29,15 +29,17 @@ function Reccos() {
 			<br></br>
 			<br></br>
 			<br></br>
+			<b className='desc'>My one-liners (or two) about things I would recommend.</b>
 			<br></br>
-			<Review title="Grand Theft Auto V" sentence={gta} link="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" video={gtavideo} rating="9.5"></Review><br/>
-			<Review title="Alien: Isolation" sentence={alienisolation} link="https://store.steampowered.com/app/214490/Alien_Isolation/" video={alienisolationvideo} rating="9.5"></Review><br/>
+			<br></br>
+			<Review title="Cyberpunk 2077" sentence={cyberpunk} link="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" video={cyberpunkvideo} rating="8.5"></Review><br/>
 			<Review title="A Plague's Tale Series" sentence={plaguetale} link="https://store.steampowered.com/sub/802975/" video={plaguetalevideo} rating="9.5"></Review><br/>
 			<Review title="The Last of Us Series" sentence={tlou} link="https://store.steampowered.com/bundle/30590/The_Last_of_Us_Part_I_Digital_Deluxe_Edition/" video={tlouvideo} rating="9.5"></Review><br/>
-			<Review title="Detroit: Become Human" sentence={dbh} link="https://store.steampowered.com/app/1222140/Detroit_Become_Human/" video={dbhvideo} rating="9.0"></Review><br/>
+			<Review title="Alien: Isolation" sentence={alienisolation} link="https://store.steampowered.com/app/214490/Alien_Isolation/" video={alienisolationvideo} rating="9.5"></Review><br/>
 			<Review title="Red Dead Redemption 2" sentence={rdr2} link="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" video={rdr2video} rating="9.0"></Review><br/>
-			<Review title="Cyberpunk 2077" sentence={cyberpunk} link="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" video={cyberpunkvideo} rating="8.5"></Review><br/>
+			<Review title="Detroit: Become Human" sentence={dbh} link="https://store.steampowered.com/app/1222140/Detroit_Become_Human/" video={dbhvideo} rating="9.0"></Review><br/>
 			<Review title="NieR: Automata" sentence={nier} link="https://store.steampowered.com/app/524220/NieRAutomata/" video={niervideo} rating="8.5"></Review><br/>
+			<Review title="Grand Theft Auto V" sentence={gta} link="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" video={gtavideo} rating="9.5"></Review><br/>
 		</div>
 	)
 }
