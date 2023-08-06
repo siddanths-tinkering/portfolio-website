@@ -10,6 +10,8 @@ const phs = ["Programmed backend of the web application using React that was uti
 		     "Implemented functionality for the patient data to be exported in various formats, including but not limited to PDFs that removed the need for doctors to manually track patient data in Excel files"]
 const odyssey = ["Supervised development of platformer-visual novel hybrid using C# and Unity with up to 2 hours of gameplay time, 8,000 words of dialogue, and 80 different dynamic sprites",
 				 "Coded object physics, especially movements related to falling and jumping within a 2-dimensional space to enable platformer mechanics"]
+const nustracker = ["Developed the front-end of nustracker, an application that helps student organizations to intuitively track large club memberships of up to 2000 members instead of using Excel", 
+					"Wrote and rephrased sections of the user and develoepr guide"]
 
 function Projects() {
 	return (
@@ -23,6 +25,7 @@ function Projects() {
 			<Role company="NjordFrey, Bridges for Enterprise" role="Team Lead" description={njordfrey} dates="Jan 22 - Oct 22" country="Rwanda" link="https://www.njordfrey.com/about"></Role><br/>
 			<Role company="Yong Loo Lin School of Medicine" role="Backend Developer" description={phs} dates="Oct 21 - Aug 22" country="Singapore"></Role><br/>
 			<Role company="Team GorillaBear, NUS Orbital" role="Team Lead" description={odyssey} dates="May 21 - Aug 21" country="Singapore" link="https://youtu.be/MSHFh263E7I"></Role><br/>
+			<Role company="nustracker" role="Developer and Code Quality" description={nustracker} dates="May 21 - Aug 21" country="Singapore" link="https://ay2122s1-cs2103t-t11-1.github.io/tp/UserGuide.html"></Role><br/>
 		</div>
 	)
 }
