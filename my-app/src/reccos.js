@@ -36,7 +36,7 @@ function Reccos() {
 			<br></br>
 			<br></br>
 			<Review title="Cyberpunk 2077" sentence={cyberpunk} link="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" video={cyberpunkvideo} ></Review><br/>
-			<Review title="A Plague's Tale Series" sentence={plaguetale} link="https://store.steampowered.com/sub/802975/" video={plaguetalevideo}></Review><br/>
+			<Review title="A Plague Tale Series" sentence={plaguetale} link="https://store.steampowered.com/sub/802975/" video={plaguetalevideo}></Review><br/>
 			<Review title="The Last of Us Series" sentence={tlou} link="https://store.steampowered.com/bundle/30590/The_Last_of_Us_Part_I_Digital_Deluxe_Edition/" video={tlouvideo}></Review><br/>
 			<Review title="Alien: Isolation" sentence={alienisolation} link="https://store.steampowered.com/app/214490/Alien_Isolation/" video={alienisolationvideo}></Review><br/>
 			<Review title="Red Dead Redemption 2" sentence={rdr2} link="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" video={rdr2video}></Review><br/>
