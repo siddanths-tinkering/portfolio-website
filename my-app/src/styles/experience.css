@@ -1,3 +1,14 @@
 .underline {
 	text-decoration: underline #61dafb;
 }
+
+.roles-container {
+	margin-top: 120px;
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	.roles-container {
+		margin-top: 70px;
+	}
+}

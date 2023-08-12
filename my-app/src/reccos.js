@@ -22,19 +22,12 @@ const plaguetale = "Follow the de Rune siblings as they fight hordes of flesh hu
 
 function Reccos() {
 	return (
-		<div className='body'>
+		<div className='recco-container'>
 			<Helmet>
 				<meta charSet="utf-8" />
       			<title>Reccos</title>
 			</Helmet>
-			<br/>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			<b className='desc'>My one-liners (or two) about things I would recommend.</b>
-			<br></br>
-			<br></br>
 			<Review title="Cyberpunk 2077" sentence={cyberpunk} link="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" video={cyberpunkvideo} ></Review><br/>
 			<Review title="A Plague Tale Series" sentence={plaguetale} link="https://store.steampowered.com/sub/802975/" video={plaguetalevideo}></Review><br/>
 			<Review title="The Last of Us Series" sentence={tlou} link="https://store.steampowered.com/bundle/30590/The_Last_of_Us_Part_I_Digital_Deluxe_Edition/" video={tlouvideo}></Review><br/>

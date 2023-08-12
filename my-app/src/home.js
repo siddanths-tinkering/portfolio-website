@@ -28,7 +28,7 @@ function Home() {
 			</Helmet>
 			<div className="app-container">
 				<div className='app-container1'>
-					<img className="headshot" src={headshot}></img>
+					<img className="headshot" alt="Head Shot" src={headshot}></img>
 					<div className='app-container2'>
 						<b className="name"> I'm Siddanth and this is who I am. </b>
 						<b className="welcome">{welcomeText}</b>

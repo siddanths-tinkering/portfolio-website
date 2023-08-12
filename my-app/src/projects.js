@@ -17,16 +17,11 @@ const petal = ["Programmed a lightweight, CLI-based task-management software tha
 
 function Projects() {
 	return (
-		<div className='body'>
+		<div className='roles-container'>
 			<Helmet>
 				<meta charSet="utf-8" />
       			<title>Projects</title>
 			</Helmet>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			<Role company="Sonvisage, Bridges for Enterprise" role="Director, Technical Advisory" description={sonvisage} dates="Ongoing" country="Nigeria (remote)" link="https://www.sonvisage.com/"></Role><br/>
 			<Role company="NjordFrey, Bridges for Enterprise" role="Team Lead" description={njordfrey} dates="Jan 22 - Oct 22" country="Rwanda (remote)" link="https://www.njordfrey.com/about"></Role><br/>
 			<Role company="Yong Loo Lin School of Medicine" role="Backend Developer" description={phs} dates="Oct 21 - Aug 22" country="Singapore"></Role><br/>

@@ -9,16 +9,11 @@ const techskills = ["Languages: Python, Java, C++, C, JavaScript, SQL (PostgreSQ
 
 function Education() {
 	return (
-		<div className='experience'>
+		<div className='roles-container'>
 			<Helmet>
 				<meta charSet="utf-8" />
       			<title>Education</title>
 			</Helmet>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			<Role company="National University of Singapore" role="Computer Science with Honours" description={nus} dates="Graduating Jun 2024"></Role><br/>
 			<Role company="Learnt over school and work" role="Skills" description={techskills} dates="" country=""></Role><br/>
 		</div>

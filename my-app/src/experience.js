@@ -17,16 +17,11 @@ const ta = ["Taught 11 undergraduate students Java principles and related librar
 
 function Experience() {
 	return (
-		<div className='experience'>
+		<div className='roles-container'>
 			<Helmet>
 				<meta charSet="utf-8" />
       			<title>Experience</title>
 			</Helmet>
-			<br/>
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			<Role company="Ensign InfoSecurity (Engineering)" role="Associate Security Engineer" description={ase} dates="Dec 22 - Feb 23"></Role><br/>
 			<Role company="Ensign InfoSecurity (Consulting)" role="Cyber Threat Intelligence Intern" description={cti} dates="May 22 - Nov 22"></Role><br/>
 			<Role company="Nat. University of Singapore" role="TA, CS2030S Programming Methodology II" description={ta} dates="Jan 22 - Jun 22"></Role><br/>
