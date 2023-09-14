@@ -7,7 +7,7 @@ const sonvisage = ["Led a team of 6 engineers to build an ELK data pipeline for 
 				   "Liaise weekly with stakeholders to discuss progress and set up new targets"]
 const njordfrey = ["Spearheaded the migration of older software to newer and more maintainable technologies such as Python and SQL within 6 months",
 				   "Engineered a data pipeline currently deployed in certain Rwandan farms that collects and performs analysis on Kibana  to identify possible factors contributing to reduced crop yields"]
-const phs = ["Programmed the backend of a web application using React that was utilized by over 1000 patients at the annual community screenings from August 21st - 22nd held by the NUS Yong Loo Lin School of Medicine",
+const phs = ["Programmed the backend of a web application using JS/MongoDB that was utilized by over 1000 patients at the annual community screenings from August 21st - 22nd held by the NUS Yong Loo Lin School of Medicine",
 		     "Implemented functionality for the patient data to be exported in various formats, including but not limited to PDFs, that removed the need for doctors to manually track patient data in Excel files"]
 const odyssey = ["Supervised the development of a platformer-visual novel hybrid using C# and Unity with up to 2 hours of gameplay time, 8,000 words of dialogue, and 80 different dynamic sprites",
 				 "Coded object physics, especially movements related to falling and jumping within a 2-dimensional space to enable platformer mechanics"]
