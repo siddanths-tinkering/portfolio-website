@@ -34,7 +34,7 @@ function Home() {
 						<b className="welcome">{welcomeText}</b>
 					</div>
 					<div className='app-container3'>
-						<a className="links" href="https://drive.google.com/file/d/1GmDu8efHFUrOx9YvA4-Oqe4sA4FdkZUl/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
+						<a className="links" href="https://drive.google.com/file/d/1OqVjlZIIM0UcW3VS254Wr3szj-R07_D-/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} /></a>
 						<a className="links" href="mailto:siddanthrumralkar@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
     	  				<a className="links" href="https://github.com/wowsiddanth?tab=repositories" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
     	  				<a className="links" href="https://medium.com/@siddanthumralkar" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} /></a>
