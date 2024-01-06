@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import './styles/experience.css';
 import Role from './components/role';
 
-const nus = ["GPA: 4.5/5.0", "Completed an exchange program with Yonsei University (Spring 2023)"]
+const nus = ["GPA: 4.41/5.0", "Completed an exchange program with Yonsei University (Spring 2023)"]
 const techskills = ["Languages: Python, Java, C++, C, JavaScript, SQL (PostgreSQL & MySQL), HTML5/CSS3", "Visualisation: Kibana, Tableau, R",
  					"Frameworks/Libraries: React, Next.js, OpenSSL, NumPy, OpenCV", "Cloud computing: AWS/Google Cloud/Azure",
 					"Others: UNIX, Elasticsearch, Logstash, Kafka, Git, Vim, Docker, YARA, Sigma, Bash, Kubernetes, Figma"];
